@@ -9,12 +9,14 @@ const Footer = () => (
 
 
       <h3><strong>Category</strong></h3>
-            <ul>
+            <ul className="has-centered-text">
             <li className="navbar-item"><NavLink exact to="/about" >ABOUT US</NavLink></li>
             <li className="navbar-item"><NavLink to="/resources">RESOURCES</NavLink></li>
             <li className="navbar-item"><NavLink to="/ways-to-give">WAYS TO GIVE</NavLink></li>
             <li className="navbar-item"><NavLink to="/hangout">HANG OUT</NavLink></li>
             </ul>
+
+
 
     <div class="content has-text-centered">
         <div class="control level-item">

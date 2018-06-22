@@ -19,7 +19,30 @@ const About = (props) => (
         </figure>
       </div>
     </div>
+
+
+  <article className="message">
+    <div className=" has-text-left cta u-p-50">
+
+      <h2>Our Vision</h2>
+      <p>To create a diverse and inclusive environment within all of the STEAM fields.</p>
+
+      <h2>Our Mission</h2>
+      <p>To secure space for women and non-binary individuals in the STEAM (science, technology, engineering, art, and mathematics) fields.</p>
+
+      <h2>Why it matters</h2>
+      <p>STEAM, which involves a collaborative mix of Science, Technology, Engineering, Art, and Mathematics, is vital to our future. Diversity expands worldliness, expands social development, promotes creative thinking and prepairs us for the global society.</p>
+
+    </div>
+  </article>
+
+  <section>
+
+    <h4>Board of Directors</h4>
+
   </section>
+
+</section>
 );
 
 export default About;

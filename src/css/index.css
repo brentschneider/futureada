@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rokkitt');
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700"');
+
 
 /* ================================= 
   Helpers CSS
@@ -49,9 +51,6 @@
 .u-m-b-10 { margin-bottom: 10px;}
 .u-p-b-10 { padding-bottom: 10px;}
 
-.u-m-15 { margin: 15px;}
-.u-p-15 { padding: 15px;}
-
 .u-m-20 { margin: 20px;}
 .u-p-20 { padding: 20px;}
 .u-m-t-20 { margin-top: 20px;}
@@ -59,8 +58,6 @@
 .u-m-b-20 { margin-bottom: 20px;}
 .u-p-b-20 { padding-bottom: 20px;}
 
-.u-m-25 { margin: 25px;}
-.u-p-25 { padding: 25px;}
 
 .u-m-30 { margin: 30px;}
 .u-p-30 { padding: 30px;}
@@ -77,38 +74,58 @@
 .u-p-b-50 { padding-bottom: 50px;}
 
 .u-m-t-100 { margin-top: 100px;}
+
 /* ================================= 
   Typography
 ==================================== */
 
 body {
-  font-size: 1.2em;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Rokkitt', Helvetica, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  padding-bottom: .5em;
+  color: rgba(130,31,90,1);
 }
 
 h1 {
-  
-  font-size: 55px;
-  font-style: normal;
-  font-weight: 400;
-  
+  font-size: 36px;
   line-height: normal;
-  text-transform: uppercase;
-  color: #252C37;
-  }
+    
+}
   
 h2 {
+  font-size: 28px;
+  color: rgba(130,31,90,1);
+}
 
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  
-  text-transform: uppercase;
-  color: #252D37;
-  }
+h3 {
+  font-size: 20px;
+  color: rgba(130,31,90,1);
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(15,138,141,1);
+}
+
+section p {
+  display: block;
+  line-height: 1.8em;
+  padding-bottom: 1.2em;
+ }
+
+.quote {
+  font-size: 26px;
+  line-height: 1.4em;
+  font-weight: 300;
+  font-style: italic;
+}
 
   /* ================================= 
   Template Elements
@@ -119,21 +136,49 @@ nav {
 }
 
 .resource {
-  border-bottom: 2px solid rgba(15, 138, 141, .6);
+  /* border-bottom: 2px solid rgba(15, 138, 141, .6); */
   padding: 24px;
 }
 .resource:nth-child(even){
-  background: rgba(130, 31, 90, .1);
+  background: linear-gradient(90deg,  rgba(2,0,36,0), rgba(2,0,36,.06) 100%);
+
 }
 
 .footer {
+  border-top: 4px solid rgba(130,31,90,1);
+
   background: rgb(34,193,195);
-background: linear-gradient(190deg, rgba(30,200,200,1) 0%, rgba(15,138,141,1) 100%);
+background: linear-gradient(190deg, rgb(88, 172, 172) 0%, rgba(15,138,141,1) 100%);
 }
 
 
+.clicky 
+{ 
+  position: relative; 
+  margin-top: 10px; margin-bottom: 10px; box-shadow: 10px 10px 0 0 #FF00AB;
+  display: block; 
+  Border: 4px solid #222; color: #222; 
+  padding: .75em 1em; 
+  transition: .24s; cursor: pointer; font-size: 1em; opacity: 0.9;
+}
 
+.clicky:active 
+{ 
+  box-shadow: none; margin-bottom: 0;
+
+  margin: 12px 12px 0 0
+}
+
+.clicky:hover 
+{
+  opacity: 1;
+}
+
+.clicky:active {
+  outline: 0;
+}
 
 /* background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(130,31,90,1) 35%, rgba(130,31,90,1) 41%, rgba(0,212,255,1) 100%);background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(130,31,90,1) 35%, rgba(130,31,90,1) 41%, rgba(0,212,255,1) 100%);background: rgb(2,0,36);
+
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(130,31,90,1) 35%, rgba(130,31,90,1) 41%, rgba(0,212,255,1) 100%); */

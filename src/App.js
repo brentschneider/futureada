@@ -19,7 +19,7 @@ class App extends Component {
 			<BrowserRouter>
 				<div>
 					<Header />
-					<Route exact path="/" render={ () => <Home title='Home' /> } />
+					<Route exact path="/" render={ () => <Home title='Future Ada' /> } />
 					<Route path="/about" render={ () => <About title='About US' /> } />
 					<Route path="/resources" render={ () => <Resources title='Resources' /> } />
 					<Route path="/ways-to-give" render={ () => <Give title='Ways to Give' /> } />
