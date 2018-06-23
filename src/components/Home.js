@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-
+import React from 'react';
+import { Timeline } from 'react-twitter-widgets';
 import FeatureHome from '../images/FutureAdaOrg.png';
+
 
 const Home = (props) => (
 
@@ -25,7 +26,9 @@ const Home = (props) => (
 
     <article className="message">
       <div className="message-body has-text-centered cta u-p-t-50 u-p-b-50">
-      <blockqoute className="quote ">The Analytical Engine weaves algebraic patterns, just as the Jacquard loom weaves flowers and leaves. <span className="is-small">– Ada Lovelace (<a href="https://en.wikipedia.org/wiki/Ada_Lovelace" target="_blank">Wikipedia </a>)</span></blockqoute> 
+      <blockquote className="quote ">
+         The Analytical Engine weaves algebraic patterns, just as the Jacquard loom weaves flowers and leaves. <span className="is-small">– Ada Lovelace (<a href="https://en.wikipedia.org/wiki/Ada_Lovelace" target="_blank" rel="noopener noreferrer">Wikipedia </a> </span>
+      </blockquote> 
       </div>
     </article>
 
@@ -48,7 +51,7 @@ const Home = (props) => (
                   <div className="notification">
                     <h4>Board of Directors</h4>
                     <p className="has-text-left"> Flexbox is a CSS spec that makes sectioning and aligning more natural.
-                    <a href="" className="clicky">CLICK ME IM OPEN!</a>
+                    <a href="" className="clicky">ABOUT US</a>
                       </p>
                   </div>
               </div>
@@ -57,7 +60,7 @@ const Home = (props) => (
                     <h4>Code of Conduct</h4>
                       <p className="has-text-left">
                           Instead of writing our CSS per-element, we can use predefined classes.
-                          <a href="" className="clicky">CLICK ME IM OPEN!</a>
+                          <a href="" className="clicky">VIEW CODE OF CONDUCT</a>
                       </p>
                   </div>
               </div>
@@ -69,29 +72,26 @@ const Home = (props) => (
     
     <div className="card-content">
       <div className="media">
-        <div className="media-left">
-          <figure className="image is-48x48">
-            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
-          </figure>
-        </div>
-        <div className="media-content">
-          <p className="title is-4">John Smith</p>
-          <p className="subtitle is-6">@johnsmith</p>
-        </div>
-      </div>
 
-      <div className="content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-        <a href="#">#css</a> <a href="#">#responsive</a>
-        
+
+<Timeline
+    dataSource={{
+      sourceType: 'profile',
+      screenName: 'futureada'
+    }}
+    options={{
+      username: 'futureada',
+      height: '520',
+      width: 900
+    }}
+    //  Removed after testing
+    //  onLoad={() => console.log('Timeline is loaded!')}
+  />
       </div>
     </div>
 </div>
 
-
-
-  </section>
+</section>
 );
 
 export default Home;

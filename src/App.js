@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
 
 import './css/App.css';
 import 'bulma/css/bulma.css'
@@ -27,7 +27,6 @@ class App extends Component {
 					<Footer />
 				</div>      
 			</BrowserRouter>
-    
     );
   }
 }
