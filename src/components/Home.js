@@ -42,7 +42,8 @@ const Home = (props) => (
               <div className="column">
                   <div className="notification">
                       <h4>Who we are</h4>
-                      <p className="has-text-left">Bulma is a modern CSS framework from @jgthms, based on Flexbox.
+                      <p className="has-text-left">
+                      Bulma is a modern CSS framework from @jgthms, based on Flexbox.
                       </p>
                       <a href="" className="clicky">WHAT WE STAND FOR</a>
                   </div>

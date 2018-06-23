@@ -39,6 +39,7 @@ const About = (props) => (
   <section>
 
     <h4>Board of Directors</h4>
+    <p>Future Ada is led by a volunteer Board of Directors who determine policies, guide financial decisions, and oversee the success of the organization.</p>
 
   </section>
 
