@@ -29,6 +29,7 @@ A list of tasks that need to be completed for your project.
 - [x] Create design patterns html css (using Bulma)
 - [x] Develop page components
 - [x] Pull twitter news feed
+
 ~~- [ ] Setup VPS environment~~
 ~~- [ ] Deploy to server via git~~
 - [x] Deploy to GitHub Pages
