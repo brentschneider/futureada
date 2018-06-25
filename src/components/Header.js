@@ -21,7 +21,7 @@ const Header = () => (
       </div>
 
       <div className="navbar-end">
-        <a className="" href="https://www.futureada.org">
+        <a className="" href="https://brentschneider.github.io/futureada/">
         <img src={mainLogo} alt="Future Adaa" width="340" height="65" className="logo" /></a>
       </div>
 

@@ -88,7 +88,7 @@ const Home = (props) => (
     options={{
       username: 'futureada',
       height: '520',
-      width: 900
+      width: 910
     }}
     //  Removed after testing
     // onLoad={() => console.log('Timeline is loaded!')}
