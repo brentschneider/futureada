@@ -29,17 +29,18 @@ A list of tasks that need to be completed for your project.
 - [x] Create design patterns html css (using Bulma)
 - [x] Develop page components
 - [x] Pull twitter news feed
-- [ ] Setup VPS environment
-- [ ] Deploy to server via git
+~~- [ ] Setup VPS environment~~
+~~- [ ] Deploy to server via git~~
+- [x] Deploy to GitHub Pages
 
 
 
-## Result
+## The Result
 
-First deployment was a sucess setting up a Virtual Private Server, untill the site domane name was changed to another partner hosting.
+👆 First deployment was a sucess setting up a Virtual Private Server, untill the site domane name was changed to another partner hosting.
 
-Second try was setting up another VPS instance under a different domaine, with no sucess.
+🤞 Second try was setting up another VPS instance under a different domaine, with no sucess.
 
-After some rethinking I decided to try deploying to Github pages.
+🎉 After some rethinking I decided to try deploying to Github pages.
 
-🎉 [brentschneider.github.io/futureada/](https://brentschneider.github.io/futureada/)
+View on: [brentschneider.github.io/futureada/](https://brentschneider.github.io/futureada/)
