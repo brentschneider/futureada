@@ -18,7 +18,7 @@ const About = (props) => (
       <div className="column">
         <figure className="image">
           <img src={FeatureAbout} alt="" />
-          <figcaption className="has-text-centered">We draw our inspiration from <br />Ada Lovelace and Rosie the Riveter</figcaption>
+          <figcaption className="has-text-centered">Girl Scouts of America STEM program</figcaption>
         </figure>
       </div>
     </div>
