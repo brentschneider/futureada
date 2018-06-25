@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 # Project Codename: Future Ada
-Future Ada is a non-profit startup, focusing on Securing space for women and non-binary individuals in the STEAM fields.
+Future Ada is a non-profit startup, focusing on securing space for women and non-binary individuals in the STEAM fields.
 
 ## 📝 Wireframes
 
