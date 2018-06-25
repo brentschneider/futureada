@@ -22,5 +22,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://brentschneider.github.io/futureada/"
+  "homepage": "https://brentschneider.github.io/futureada"
 }

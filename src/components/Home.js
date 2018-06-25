@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Timeline } from 'react-twitter-widgets';
+import { Timeline } from 'react-twitter-widgets';
 import FeatureHome from '../images/FutureAdaOrg.png';
 
 const Home = (props) => (
@@ -73,7 +73,7 @@ const Home = (props) => (
   </section>
 
 
-  {/* GIT HUB PAGES DOESN'T RENDER THIS – bug
+  {/* GIT HUB PAGES DOESN'T RENDER THIS – bug */}
   
   <div className="card">
     <div className="card-content">
@@ -91,11 +91,11 @@ const Home = (props) => (
       width: 900
     }}
     //  Removed after testing
-     onLoad={() => console.log('Timeline is loaded!')}
+    // onLoad={() => console.log('Timeline is loaded!')}
   />
       </div>
     </div>
-</div> */}
+</div>
 
 </section>
 );
