@@ -151,6 +151,11 @@ nav {
 
 }
 
+.hrline {
+  border: 0;
+  border-bottom: 4px solid rgba(130,31,90,1);
+}
+
 .clicky {
   display: block;
   position: relative;

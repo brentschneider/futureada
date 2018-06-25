@@ -19,24 +19,24 @@ const Resources = (props) => (
     </div>
 
     <section className="resource u-m-t-20 u-p-b-20">
-    <h1>Lorem ipsum dolor sit amet</h1>
-    <h2>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h2>
-    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <a href="#" className="button u-m-t-20">lorem ipsum</a>
+    <h1>DjangoGirls Workshop</h1>
+    <h2>Workshop – Sept 28 & 29, 2018</h2>
+    <p>A one-day free workshop for women on programming to learn Python and Django. More details and registration information coming soon! @ Startup Spokane.</p>
+    <a href="https://djangogirls.org/events/" className="button u-m-t-20">WORKSHOP INFORMATION</a>
     </section>
 
     <section className="resource u-m-t-20 u-p-b-20">
-    <h1>Lorem ipsum dolor sit amet</h1>
-    <h2>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h2>
-    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <a href="#" className="button u-m-t-20">lorem ipsum</a>
+    <h1>CODE: Debugging the Gender Gap</h1>
+    <h2>Event: TBA Fall, 18</h2>
+    <p>CODE documentary exposes the dearth of American female and minority software engineers and explores the reasons for this gender gap.</p>
+    <a href="https://www.facebook.com/futureada/" className="button u-m-t-20">UPCOING EVENTS</a>
     </section>
 
     <section className="resource u-p-b-20">
-    <h1>Lorem ipsum dolor sit amet</h1>
-    <h2>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h2>
-    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <a href="#" className="button u-m-t-20">lorem ipsum</a>
+    <h1>Want to be a developer?</h1>
+    <h2>Partner – Ada Developers Academy</h2>
+    <p>The Ada program consists of six months of classroom training followed by five months in a paid, learning internship in the greater Seattle area as a software developer.</p>
+    <a href="https://www.adadevelopersacademy.org/" className="button u-m-t-20">SEATTLE PARTNER</a>
     </section>
 
 

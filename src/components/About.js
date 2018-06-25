@@ -46,7 +46,7 @@ const About = (props) => (
 
     <section className="section has-text-centered">
 
-<h2 className="has-text-centerd u-p-30">WHO WE ARE</h2>
+<h2 className="has-text-centered u-p-30">WHO WE ARE</h2>
 
   <div className="container">
       <div className="columns is-multiline">

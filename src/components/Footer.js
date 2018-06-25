@@ -18,7 +18,7 @@ const Footer = () => (
         <p>PO Box 294, Liberty Lake, WA 99019</p>
 
         <h3>General Inquires</h3>
-        <p>email: hello@futureada.org</p>
+        <p>email: <a href="mailto:hello@futureada.org">hello@futureada.org</a></p>
     </div>    
 
 </div>

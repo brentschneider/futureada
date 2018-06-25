@@ -1,7 +1,6 @@
 import React from 'react';
-import { Timeline } from 'react-twitter-widgets';
+// import { Timeline } from 'react-twitter-widgets';
 import FeatureHome from '../images/FutureAdaOrg.png';
-
 
 const Home = (props) => (
 
@@ -45,7 +44,7 @@ const Home = (props) => (
                       <h4>Who we are</h4>
                       <p className="has-text-left">
                       Our mission is in securing space for women and non-binary individuals in the science, technology, engineering, arts and mathematics (STEAM) fields.</p>
-                      <a href="" className="clicky">WHAT WE STAND FOR</a>
+                      <a href="#" className="clicky">WHAT WE STAND FOR</a>
                       
                   </div>
               </div>
@@ -54,7 +53,7 @@ const Home = (props) => (
                   <div className="notification">
                     <h4>Board of Directors</h4>
                     <p className="has-text-left">We want to do our part to help ensure that these fields are open, available, and safe for women and non-binary individuals to be a part of.</p>
-                    <a href="" className="clicky">ABOUT US</a>
+                    <a href="#" className="clicky">ABOUT US</a>
                       
                   </div>
               </div>
@@ -64,7 +63,7 @@ const Home = (props) => (
                     <h4>Code of Conduct</h4>
                       <p className="has-text-left">
                       Future Ada is dedicated to providing an inclusive, safe, welcoming, harassment free space where community members feel comfortable participating and being themselves.</p>
-                      <a href="" className="clicky">CODE OF CONDUCT</a>
+                      <a href="#" className="clicky">CODE OF CONDUCT</a>
                     
                   </div>
               </div>
@@ -73,6 +72,9 @@ const Home = (props) => (
       </div>
   </section>
 
+
+  {/* GIT HUB PAGES DOESN'T RENDER THIS – bug
+  
   <div className="card">
     <div className="card-content">
       <div className="media">
@@ -89,11 +91,11 @@ const Home = (props) => (
       width: 900
     }}
     //  Removed after testing
-    //  onLoad={() => console.log('Timeline is loaded!')}
+     onLoad={() => console.log('Timeline is loaded!')}
   />
       </div>
     </div>
-</div>
+</div> */}
 
 </section>
 );
