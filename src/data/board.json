@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Becca Long",
+    "title": "President",
+    "image": "Rebecca.jpg",
+    "description": "Co-founder"
+  },
+  {
+    "name": "Brent Schneider",
+    "title": "Vice President",
+    "image": "Brent.jpg",
+    "description": "Co-founder"
+  },
+  {
+    "name": "Justine Johnson",
+    "title": "Secretary",
+    "image": "Justine.jpg",
+    "description": "Co-founder"
+  },
+  {
+    "name": "Melanie Anderson",
+    "title": "Treasurer",
+    "image": "Melanie.jpg",
+    "description": "Co-founder"
+  },
+  {
+    "name": "Dr. Carol Taylor",
+    "title": "Advisor",
+    "image": "Carol.jpg",
+    "description": "Co-founder"
+  },
+  {
+    "name": "Jennifer Pearson",
+    "title": "Advisor",
+    "image": "Jennifer.jpg",
+    "description": "Co-founder"
+  }
+]

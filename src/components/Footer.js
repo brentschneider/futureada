@@ -1,25 +1,34 @@
 import React from 'react';
-import  { NavLink } from 'react-router-dom';
+
+import theLogo from '../images/Future_Ada_logo.png';
 
 const Footer = () => (
 
 <footer className="footer u-m-t-30">
-    <div className="container">
-      <div className="content has-text-centered">
 
+<div className="columns is-multiline is-mobile">
 
-<h3><strong>Category</strong></h3>
-    <ul className="has-centered-text">
-        <li className="navbar-item"><NavLink exact to="/about" >ABOUT US</NavLink></li>
-        <li className="navbar-item"><NavLink to="/resources">RESOURCES</NavLink></li>
-        <li className="navbar-item"><NavLink to="/ways-to-give">WAYS TO GIVE</NavLink></li>
-        <li className="navbar-item"><NavLink to="/hangout">HANG OUT</NavLink></li>
-    </ul>
+    <div className="column is-half has-text-right">
+        <img src={theLogo} alt="Future Adaa" width="340" height="65" className="logo" />
+    </div>
 
+    <div className="column is-half has-text-left">
+        
+        <h3>Address: </h3>
+        <p>PO Box 294, Liberty Lake, WA 99019</p>
 
+        <h3>General Inquires</h3>
+        <p>email: hello@futureada.org</p>
+    </div>    
+
+</div>
 
     <div className="content has-text-centered">
-        <div className="control level-item">
+
+    <p>Copyright Future Ada, a 501(c)3 organization EIN: 82-4398280</p>
+
+
+    <div className="control level-item">
             <a href="https://github.com/futureada">
                 <div className="tags has-addons">
                     <span className="tag is-dark">Future Ada</span>
@@ -27,13 +36,9 @@ const Footer = () => (
                 </div>
             </a>
         </div>
-    </div>
-        
-        
+  </div>
 
-       
-      </div>
-    </div>
+  
     <script src="../js/bulma.js"></script>
   </footer>
 );

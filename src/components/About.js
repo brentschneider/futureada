@@ -1,6 +1,9 @@
 import React from 'react';
 import FeatureAbout from '../images/Science.png';
 
+import Board from './Board';
+import boardmember from '../data/board.json';
+
 const About = (props) => (
 
   <section className="container u-m-t-100">
@@ -38,8 +41,25 @@ const About = (props) => (
 
   <section>
 
-    <h4>Board of Directors</h4>
+    <h2>Board of Directors</h2>
     <p>Future Ada is led by a volunteer Board of Directors who determine policies, guide financial decisions, and oversee the success of the organization.</p>
+
+    <section className="section has-text-centered">
+
+<h2 className="has-text-centerd u-p-30">WHO WE ARE</h2>
+
+  <div className="container">
+      <div className="columns is-multiline">
+
+        {boardmember.map((boardmember, idx) => {
+          return <Board key={idx} boardmember={boardmember} />
+        })}
+
+      </div>
+  </div>
+</section>
+
+    
 
   </section>
 

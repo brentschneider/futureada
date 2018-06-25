@@ -33,44 +33,47 @@ const Home = (props) => (
     </article>
 
 
-    <section className="section has-text-centered">
+  <section className="section has-text-centered">
 
     <h2 className="has-text-centerd u-p-30">WHO WE ARE</h2>
 
       <div className="container">
           <div className="columns">
+
               <div className="column">
                   <div className="notification">
                       <h4>Who we are</h4>
                       <p className="has-text-left">
-                      Bulma is a modern CSS framework from @jgthms, based on Flexbox.
-                      </p>
+                      Our mission is in securing space for women and non-binary individuals in the science, technology, engineering, arts and mathematics (STEAM) fields.</p>
                       <a href="" className="clicky">WHAT WE STAND FOR</a>
+                      
                   </div>
               </div>
+
               <div className="column">
                   <div className="notification">
                     <h4>Board of Directors</h4>
-                    <p className="has-text-left"> Flexbox is a CSS spec that makes sectioning and aligning more natural.
+                    <p className="has-text-left">We want to do our part to help ensure that these fields are open, available, and safe for women and non-binary individuals to be a part of.</p>
                     <a href="" className="clicky">ABOUT US</a>
-                      </p>
+                      
                   </div>
               </div>
+
               <div className="column">
                   <div className="notification">
                     <h4>Code of Conduct</h4>
                       <p className="has-text-left">
-                          Instead of writing our CSS per-element, we can use predefined classes.
-                          <a href="" className="clicky">VIEW CODE OF CONDUCT</a>
-                      </p>
+                      Future Ada is dedicated to providing an inclusive, safe, welcoming, harassment free space where community members feel comfortable participating and being themselves.</p>
+                      <a href="" className="clicky">CODE OF CONDUCT</a>
+                    
                   </div>
               </div>
+
           </div>
       </div>
   </section>
 
   <div className="card">
-    
     <div className="card-content">
       <div className="media">
 

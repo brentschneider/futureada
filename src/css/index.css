@@ -147,38 +147,42 @@ nav {
 .footer {
   border-top: 4px solid rgba(130,31,90,1);
 
-  background: rgb(34,193,195);
-background: linear-gradient(190deg, rgb(88, 172, 172) 0%, rgba(15,138,141,1) 100%);
+  background:#88DBDB;
+
 }
 
-
-.clicky 
-{ 
-  position: relative; 
-  margin-top: 10px; margin-bottom: 10px; box-shadow: 10px 10px 0 0 #FF00AB;
-  display: block; 
-  Border: 4px solid #222; color: #222; 
-  padding: .75em 1em; 
-  transition: .24s; cursor: pointer; font-size: 1em; opacity: 0.9;
+.clicky {
+  display: block;
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: .5em .8em;
+  Border: 3px solid #444;
+  box-shadow: 8px 8px 0 0 #FF00AB;
+  transition: .2s;
+  color: #222;
+  cursor: pointer;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none !important;
 }
 
-.clicky:active 
-{ 
-  box-shadow: none; margin-bottom: 0;
-
-  margin: 12px 12px 0 0
-}
-
-.clicky:hover 
-{
-  opacity: 1;
-}
-
-.clicky:active {
-  outline: 0;
+.clicky:hover {
+  box-shadow: 8px 8px 0 0 rgba(0, 0, 0, 0);
+  background: #FF00AB;
+  color: #fff !important;
 }
 
 /* background: rgb(2,0,36);
  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(130,31,90,1) 35%, rgba(130,31,90,1) 41%, rgba(0,212,255,1) 100%);background: rgb(2,0,36);
 
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(130,31,90,1) 35%, rgba(130,31,90,1) 41%, rgba(0,212,255,1) 100%); */
+
+
+/* .card:hover {
+  background-color: white;
+  border:1px solid #dcdcdc;
+  box-shadow: 0 30px 40px -14px rgba(0, 0, 0, 0.25);
+  
+  overflow: hidden;
+} */
