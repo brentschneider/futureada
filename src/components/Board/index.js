@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-// import theLogo from '../images/Future_Ada_logo.png';
-
 class Board extends Component {
 
   render() {
@@ -17,11 +15,11 @@ class Board extends Component {
     return(
       <div className="column is-one-third">
           <div className="card">
-            {/* <div className="card-image">
+            <div className="card-image">
               <figure className="image is-4by3">
-                <img src="{theLogo}" alt={name} />
+                <img src={image} alt={name} />
               </figure>
-            </div> */}
+            </div>
             <div className="card-content">
               <div className="media">
                 <div className="media-content">

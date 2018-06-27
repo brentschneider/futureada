@@ -22,21 +22,21 @@ const Resources = (props) => (
     <h1>DjangoGirls Workshop</h1>
     <h2>Workshop – Sept 28 & 29, 2018</h2>
     <p>A one-day free workshop for women on programming to learn Python and Django. More details and registration information coming soon! @ Startup Spokane.</p>
-    <a href="https://djangogirls.org/events/" target="_blank"className="button u-m-t-20">WORKSHOP INFORMATION</a>
+    <a href="https://djangogirls.org/events/" target="_blank"className="clicky u-m-t-20" rel="noopener noreferrer">WORKSHOP INFORMATION</a>
     </section>
 
     <section className="resource u-m-t-20 u-p-b-20">
     <h1>CODE: Debugging the Gender Gap</h1>
     <h2>Event: TBA Fall, 18</h2>
     <p>CODE documentary exposes the dearth of American female and minority software engineers and explores the reasons for this gender gap.</p>
-    <a href="https://www.facebook.com/futureada/" target="_blank" className="button u-m-t-20">UPCOING EVENTS</a>
+    <a href="https://www.facebook.com/futureada/" target="_blank" className="clicky u-m-t-20" rel="noopener noreferrer">UPCOING EVENTS</a>
     </section>
 
     <section className="resource u-p-b-20">
     <h1>Want to be a developer?</h1>
     <h2>Partner – Ada Developers Academy</h2>
     <p>The Ada program consists of six months of classroom training followed by five months in a paid, learning internship in the greater Seattle area as a software developer.</p>
-    <a href="https://www.adadevelopersacademy.org/" target="_blank" className="button u-m-t-20">SEATTLE PARTNER</a>
+    <a href="https://www.adadevelopersacademy.org/" target="_blank" className="clicky u-m-t-20" rel="noopener noreferrer">SEATTLE PARTNER</a>
     </section>
 
 
