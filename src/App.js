@@ -21,9 +21,10 @@ class App extends Component {
 					<Header />
 
 					{/* LOCAL DEV*/}
-					<Route exact path="/" render={ () => <Home title='Future Ada' /> } />
+					{/* <Route exact path="/" render={ () => <Home title='Future Ada' /> } /> */}
+					
 					{/* GITHUB PAGES */}
-					{/* <Route path="/futureada/" render={ () => <Home title='Future Ada' /> } /> */}
+					<Route path="/futureada/" render={ () => <Home title='Future Ada' /> } />
 					
 					<Route path="/about" render={ () => <About title='About US' /> } />
 					<Route path="/resources" render={ () => <Resources title='Resources' /> } />
