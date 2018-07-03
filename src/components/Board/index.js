@@ -16,7 +16,7 @@ class Board extends Component {
       <div className="column is-one-third">
           <div className="card">
             <div className="card-image">
-              <figure className="image is-4by3">
+              <figure className="image is-4by4">
                 <img src={image} alt={name} />
               </figure>
             </div>

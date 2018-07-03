@@ -2,37 +2,37 @@
   {
     "name": "Becca Long",
     "title": "President",
-    "image": "https://brentschneider.github.io/futureada/static/media/Rebecca.jpg",
+    "image": "https://brentschneider.github.io/static/media/board/Rebecca.jpg",
     "description": "Co-founder"
   },
   {
     "name": "Brent Schneider",
     "title": "Vice President",
-    "image": "https://brentschneider.github.io/futureada/static/media/Brent.jpg",
+    "image": "https://brentschneider.github.io/static/media/board/Brent.jpg",
     "description": "Co-founder"
   },
   {
     "name": "Justine Johnson",
     "title": "Secretary",
-    "image": "https://brentschneider.github.io/futureada/static/media/Justine.jpg",
+    "image": "https://brentschneider.github.io/static/media/board/Justine.jpg",
     "description": "Co-founder"
   },
   {
     "name": "Melanie Anderson",
     "title": "Treasurer",
-    "image": "https://brentschneider.github.io/futureada/static/media/Melanie.jpg",
+    "image": "https://brentschneider.github.io/static/media/board/Melanie.jpg",
     "description": "Co-founder"
   },
   {
     "name": "Dr. Carol Taylor",
     "title": "Advisor",
-    "image": "https://brentschneider.github.io/futureada/static/media/Carol.jpg",
+    "image": "https://brentschneider.github.io/static/media/board/Carol.jpg",
     "description": "Co-founder"
   },
   {
     "name": "Jennifer Pearson",
     "title": "Advisor",
-    "image": "https://brentschneider.github.io/futureada/static/media/Jennifer.jpg",
+    "image": "https://brentschneider.github.io/static/media/board/Jennifer.jpg",
     "description": "Co-founder"
   }
 ]
