@@ -31,7 +31,8 @@ class App extends Component {
 					*/}
 					
 					{/* GITHUB PAGES */}
-					<Route path="/futureada/" render={ () => <Home title='Future Ada' /> } />
+					<Route path="/futureada/" render={ () => 
+						<Home title='Future Ada' /> } />
 					
 					<Route path="/futureada/about" render={ () => <About title='About US' /> } />
 					<Route path="/futureada/resources" render={ () => <Resources title='Resources' /> } />
