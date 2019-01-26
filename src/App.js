@@ -23,15 +23,20 @@ class App extends Component {
 					<switch>
 
 					{/* LOCAL DEV*/}
-					{/* <Route exact path="/" render={ () => <Home title='Future Ada' /> } /> */}
-					
-					{/* GITHUB PAGES */}
-					<Route path="/futureada/" render={ () => <Home title='Future Ada' /> } />
-					
+					{/* <Route exact path="/" render={ () => <Home title='Future Ada' /> } /> 
 					<Route path="/about" render={ () => <About title='About US' /> } />
 					<Route path="/resources" render={ () => <Resources title='Resources' /> } />
 					<Route path="/ways-to-give" render={ () => <Give title='Ways to Give' /> } />
 					<Route path="/hangout" render={ () => <Hangout title="Let's Hangout" /> } />
+					*/}
+					
+					{/* GITHUB PAGES */}
+					<Route path="/futureada/" render={ () => <Home title='Future Ada' /> } />
+					
+					<Route path="/futureada/about" render={ () => <About title='About US' /> } />
+					<Route path="/futureada/resources" render={ () => <Resources title='Resources' /> } />
+					<Route path="/futureada/ways-to-give" render={ () => <Give title='Ways to Give' /> } />
+					<Route path="/futureada/hangout" render={ () => <Hangout title="Let's Hangout" /> } />
 
 					</switch>
 					<Footer />
