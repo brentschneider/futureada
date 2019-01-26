@@ -20,6 +20,8 @@ class App extends Component {
 				<div>
 					<Header />
 
+					<switch>
+
 					{/* LOCAL DEV*/}
 					{/* <Route exact path="/" render={ () => <Home title='Future Ada' /> } /> */}
 					
@@ -30,6 +32,8 @@ class App extends Component {
 					<Route path="/resources" render={ () => <Resources title='Resources' /> } />
 					<Route path="/ways-to-give" render={ () => <Give title='Ways to Give' /> } />
 					<Route path="/hangout" render={ () => <Hangout title="Let's Hangout" /> } />
+
+					</switch>
 					<Footer />
 				</div>      
 			</BrowserRouter>
